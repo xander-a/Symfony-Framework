@@ -1,0 +1,10 @@
+{# This allow to re use the base tempate which contain html syntaxes #}
+{% extends 'base.html.twig' %}
+
+{# Tells that this is the body #}
+{% block body %}
+<h1> Welcome to Twig</h1>
+<a href="{{path('app_product')}}">Products</a>
+
+{# Tells that this is the end of the body #}
+{% endblock %}
